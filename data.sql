@@ -1,26 +1,26 @@
-INSERT INTO product (productName, price)
-VALUES ('Smartphone', 599.99);
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES ('Fine Dining', '123 Main St', 'European', 5);
 
-INSERT INTO product (productName, price)
-VALUES ('Laptop', 1299.99);
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES ('Taco Bell', '456 Elm St', 'Fast Food', 3);
 
-INSERT INTO product (productName, price)
-VALUES ('Gaming Console', 399.99);
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES ('Sushi Place', '789 Oak St', 'Japanese', 4);
 
-INSERT INTO review (reviewContent, rating, productId)
-VALUES ('Great battery life!', 5, 1);
+INSERT INTO chef (firstName, lastName, expertise, experienceYears, restaurantId)
+VALUES ('John', 'Doe', 'Sous Chef', 5, 1);
 
-INSERT INTO review (reviewContent, rating, productId)
-VALUES ('Lags sometimes.', 3, 1);
+INSERT INTO chef (firstName, lastName, expertise, experienceYears, restaurantId)
+VALUES ('Jane', 'Doe', 'Pastry Chef', 7, 1);
 
-INSERT INTO review (reviewContent, rating, productId)
-VALUES ('Perfect for my daily tasks!', 4, 2);
+INSERT INTO chef (firstName, lastName, expertise, experienceYears, restaurantId)
+VALUES ('Mike', 'Smith', 'Head Chef', 10, 2);
 
-INSERT INTO review (reviewContent, rating, productId)
-VALUES ('Bit pricey, but worth it.', 4, 2);
+INSERT INTO chef (firstName, lastName, expertise, experienceYears, restaurantId)
+VALUES ('Emily', 'Johnson', 'Sushi Chef', 8, 3);
 
-INSERT INTO review (reviewContent, rating, productId)
-VALUES ('Awesome gaming experience!', 5, 3);
+INSERT INTO chef (firstName, lastName, expertise, experienceYears, restaurantId)
+VALUES ('Anna', 'Williams', 'Pastry Chef', 6, 3);
 
-INSERT INTO review (reviewContent, rating, productId)
-VALUES ('Needs more exclusive games.', 4, 3);
+INSERT INTO chef (firstName, lastName, expertise, experienceYears, restaurantId)
+VALUES ('Mark', 'Brown', 'Sous Chef', 4, 2);
